@@ -1,0 +1,11 @@
+name: HomePlugin
+version: ${project.version}
+main: me.dkflab.homeplugin.HomePlugin
+api-version: 1.18
+commands:
+  home:
+    description: Command to go home
+  sethome:
+    description: Set home of player
+  delhome:
+    description: Deletes home
